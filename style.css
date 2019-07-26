@@ -1,0 +1,23 @@
+.nav-list1{
+   background-color: #131313;
+   color: #BDBDBD;
+    font-size: 0.9em;
+   height: 2.5%;
+    padding-left: 1%;
+    padding-top: 0.3%;
+    cursor: pointer;
+   
+}
+.nav-list1:active{
+    color: white;
+} 
+.nav-list1 li{
+    display: inline;
+    margin-right: 1%;
+}
+.nav-list1 li:hover{
+    color: white;
+}
+nav-list2{
+    
+}
