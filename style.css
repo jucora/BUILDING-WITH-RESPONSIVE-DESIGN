@@ -157,7 +157,6 @@ body {
 /* Second Section */
 
 .second-section {
-  border: 1px solid purple;
   height: 98vh;
   margin: 0 auto;
   margin-top: 8%;
@@ -202,8 +201,13 @@ body {
 /* Section 3 */
 
 .third-section {
+  margin: 0 auto;
   position: relative;
-  width: 100%;
+  width: 96%;
+}
+.third-section-header {
+  margin: 0 auto;
+  width: 97.8%;
 }
 .third-section-header:after{
     clear: both;
@@ -213,9 +217,22 @@ body {
 }
 .third-section ul{
     float: right;
+    position: relative;
+    right: -2%;
+    width: 25%;
 }
 .third-section li{
     display: inline;
+}
+.third-section li a {
+  color: #f42;
+  text-decoration: none;
+}
+.email {
+  border-left: 1px solid #f42;
+  border-right: 1px solid #f42;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 .third-section h2 {
     float: left;
