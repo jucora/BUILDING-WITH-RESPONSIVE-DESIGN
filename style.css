@@ -157,10 +157,10 @@ body {
 /* Second Section */
 
 .second-section {
-  height: 78vh;
+  height: 68vh;
   margin: 0 auto;
   margin-top: 8%;
-  width: 90%;
+  width: 96%;
 }
 .latest {
   color: red;
@@ -198,4 +198,17 @@ body {
   padding-bottom: 2%;
   width: 100%;
 }
-
+/*section 3*/
+.s3-articles img{
+    width:5%;
+}
+.s3-box1{
+    background-color: #f42;
+    height: 3%;
+    width: 5%;
+}
+.s3-box2{
+    background-color: #f42;
+    height: 3%;
+    width: 5%;
+}
