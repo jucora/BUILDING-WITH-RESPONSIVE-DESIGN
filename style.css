@@ -211,6 +211,18 @@ body {
     background-image: linear-gradient(to bottom,#f42 50%, #FFEAE6 50%);
     font-weight: bold;
     height: 3%;
+    padding-bottom: 2%;
+}
+.s3-box1-b{
+    background-color: #F9F9F7;
+    color: #555;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+.s3-box1-b-p3{
+    border-top: 1px solid orange;
+    padding-top: 5%;
 }
 .s3-img {
   float: left;
@@ -229,6 +241,15 @@ body {
   position: relative;
   right: 33%;
 }
+.s3-box1-p1{
+    color: black;
+    text-transform: uppercase;
+}
+.s3-box1-p2{
+    color: #939393;
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
 .s3-box1 h3:after {
   display: table;
   clear: both;
@@ -236,8 +257,7 @@ body {
 }
 .s3-box1 p {
   clear: right;
-  font-size: 1em;
-  padding-bottom: 4%;
+  padding-bottom: 2%;
   position: relative;
   left: 33%;
 }
