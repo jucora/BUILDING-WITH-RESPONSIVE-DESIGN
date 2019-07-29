@@ -81,17 +81,28 @@ body {
     width: 99%;
 }
 .first-section-art1{
-    background-image: url("img/tik-tok.png");
+    background-image: linear-gradient(to bottom right, rgba(247, 11, 11, 0.5) 30%, rgba(15, 1, 1, 0.7) 60%), 
+    url("img/tik-tok.png");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid green;
     position: relative;
     width: 65%;
 }
+
+.first-section-art1 h1 {
+  font-size: 4em;
+  font-weight: bold;
+  position: relative;
+  margin-top: 30%;
+  width: 95%;
+  z-index: 10;
+}
 .first-article-date{
     position: relative;
     top:0;
-    left:70%;
+    left: 78%;
 }
 .first-section-art2{
     background-image: url("img/bitcoin.png");
