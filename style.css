@@ -203,8 +203,22 @@ body {
 
 .third-section {
   position: relative;
+  width: 100%;
+}
+.third-section-header:after{
+    clear: both;
+    content: "";
+    display: table;
+    
+}
+.third-section ul{
+    float: right;
+}
+.third-section li{
+    display: inline;
 }
 .third-section h2 {
+    float: left;
   padding-bottom: 2%;
 }
 .s3-box1{
@@ -226,11 +240,11 @@ body {
 }
 .s3-img {
   float: left;
-  height: 12.5%;
+  height: 16%;
   margin-left: 1%;
   position: absolute;
-  bottom: 75%;
-  width: 6%;
+  top: 22%;
+  width: 4.5%;
 }
 .s3-box1 h3 {
   color: white;
