@@ -74,9 +74,9 @@ body {
     width: 1%;
 }
 .first-section{
-    border: 1px solid black;
+    box-sizing: border-box;
     color: white;
-    height: auto;
+    height: 75vh;
     margin: 0 auto;
     width: 99%;
 }
@@ -86,10 +86,11 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid green;
+    box-sizing: border-box;
     float: left;
+    height: 100%;
     position: relative;
-    width: 65%;
+    width: 67%;
 }
 
 .first-section-art1 h1 {
@@ -108,17 +109,18 @@ body {
 .first-section-art2{
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
     float: right;
-    height: 24.8%;
-    margin-bottom: 0.3%;
+    height: 49.5%;
     position: relative;
-    width: 34.5%;
+    width: 32.5%;
 }
 .article-2{
    background-image: url("img/bitcoin.JFIF");
    background-position: center;
    background-size: cover;   
    background-repeat: no-repeat;
+   margin-bottom: 0.25%;
 }
 .first-section-art2 div{
     position: relative;
@@ -128,7 +130,7 @@ body {
 .insights{
     font-size: 1em;
     margin-left: 1%;
-    padding: 2%;/
+    padding: 2%;
 }
 .section-h2{
     font-size: 1.8em;
@@ -145,5 +147,6 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 0.25%;
 }
 
