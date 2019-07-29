@@ -73,6 +73,10 @@ body {
     top: 0.5em;
     width: 1%;
 }
+
+/* First Section */
+
+
 .first-section{
     box-sizing: border-box;
     color: white;
@@ -148,5 +152,39 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 0.25%;
+}
+
+/* Second Section */
+
+.second-section {
+  border: 1px solid red;
+  height: 80vh;
+  margin: 0 auto;
+  margin-top: 8%;
+  width: 90%;
+}
+.latest {
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+}
+.second-section h2:hover {
+  color: black;
+}
+.s2-article-container {
+  margin-top: 1%;
+}
+.s2-articles {
+  display: flex;
+  flex-direction: row;
+}
+.s2-articles article {
+  border: 1px solid blue;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.s2-articles article img {
+  height: auto;
+  width: 100%;
 }
 
