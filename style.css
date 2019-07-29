@@ -157,8 +157,7 @@ body {
 /* Second Section */
 
 .second-section {
-  border: 1px solid red;
-  height: 80vh;
+  height: 78vh;
   margin: 0 auto;
   margin-top: 8%;
   width: 90%;
@@ -178,13 +177,25 @@ body {
   display: flex;
   flex-direction: row;
 }
+.s2-articles h2{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+.s2-articles span{
+    color: #aaa;
+    font-size: 0.9em;
+}
 .s2-articles article {
-  border: 1px solid blue;
+  height:auto;
+  margin-bottom: 2%;
   margin-left: 1%;
   margin-right: 1%;
+  width:23%; 
 }
 .s2-articles article img {
-  height: auto;
+  height: 10em;
+  padding-bottom: 2%;
   width: 100%;
 }
 
