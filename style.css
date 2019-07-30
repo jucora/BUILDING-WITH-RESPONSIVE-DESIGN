@@ -311,6 +311,9 @@ body {
   width: 30%;
 }
 .s4-d1 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 16em;
 }
 .s4-d1-p {
@@ -338,9 +341,6 @@ body {
       rgba(255, 250, 250, 0)
     ),
     url("img/android.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .s4-d2 {
   position: relative;
@@ -365,7 +365,6 @@ body {
   width: 100%;
 }
 .d2-img {
-  background-image: url("img/smiling-couple.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -413,3 +412,90 @@ body {
 }
 .first-li {padding-top: 1em;}
 .s4-d3 ul li a:hover {color: black;}
+.b2{
+    background-image: linear-gradient(
+      to top,
+      black,
+      rgba(15, 1, 1, 0),
+      rgba(255, 250, 250, 0)
+    ),
+    url("img/oppo.jpeg");
+}
+.b3{
+    background-image: linear-gradient(
+      to top,
+      black,
+      rgba(15, 1, 1, 0),
+      rgba(255, 250, 250, 0)
+    ),
+    url("img/spiderman.png");
+}
+.b4{
+    background-image: linear-gradient(
+      to top,
+      black,
+      rgba(15, 1, 1, 0),
+      rgba(255, 250, 250, 0)
+    ),
+    url("img/chinese-vertical.png");
+}
+.b5{
+    background-image: linear-gradient(
+      to top,
+      black,
+      rgba(15, 1, 1, 0),
+      rgba(255, 250, 250, 0)
+    ),
+    url("img/mac-laptop.jpeg");
+}
+.b6{
+    background-image: linear-gradient(
+      to top,
+      black,
+      rgba(15, 1, 1, 0),
+      rgba(255, 250, 250, 0)
+    ),
+    url("img/eventually.png");
+}
+.b7{
+    background-image: linear-gradient(
+      to top,
+      black,
+      rgba(15, 1, 1, 0),
+      rgba(255, 250, 250, 0)
+    ),
+    url("img/doom.jpg");
+}
+.b8{
+    background-image: linear-gradient(
+      to top,
+      black,
+      rgba(15, 1, 1, 0),
+      rgba(255, 250, 250, 0)
+    ),
+    url("img/controller.jpg");
+}
+.img1{
+    background-image: url("img/smiling-couple.png");
+}
+.img2{
+    background-image: url("img/foldable.png");
+}
+.img3{
+    background-image: url("img/furniture.jpg");
+}
+.img4{
+    background-image: url("img/carlton.jpg");
+}
+.img5{
+    background-image: url("img/hands-over-ears.jpeg");
+}
+.img6{
+    background-image: url("img/bitcoin.jfif");
+}
+.img7{
+    background-image: url("img/mozilla.jpeg");
+}
+.img8{
+    background-image: url("img/mario.jpg");
+}
