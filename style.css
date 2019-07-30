@@ -499,3 +499,11 @@ body {
 .img8{
     background-image: url("img/mario.jpg");
 }
+.fifth-section{
+    display: flex;
+    flex-direction: row;
+}
+.fifth-section article{
+    margin-left: 2.6%;
+    width: 30%;
+}
