@@ -323,6 +323,9 @@ body {
   top: 62%;
   width: 95%;
 }
+.popular {
+  font-weight: 100;
+}
 .s4-author {
   color: rgba(214, 214, 214, 0.726);
   font-size: 0.8em;
