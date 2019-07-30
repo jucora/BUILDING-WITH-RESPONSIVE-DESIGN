@@ -334,12 +334,50 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.s4-d2 {
-  
+.s4-d2  {
+   color: red;
+}
+.s4-d2-p{
+    background-color: #FEF3EF;
+    border: 1px solid red;
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+}
+.d2-img{
+    background-image: url("img/smiling-couple.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid green;
+    box-sizing: border-box;
+    float: left;
+    height: 5.15em;
+    width:30%;
+}
+.d2-img:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.s4-d2-desc{ 
+  color: red;
+  font-weight: bold;
+  float: left;
+  width: 70%;
 }
 .s4-d2 img {
-  width: 10%;
+  float: left;
+  height: 10%;
+    position: relative;
+    right: -3%;
+    top: -1em;
+  width: 27%;
 }
-.s4-d3 {
-  
+.s4-d3 ul {
+  list-style: disc;
+list-style-position: inside;
+}
+.s4-d3 li{
+    border-bottom: 1px solid #EBE8E7;
 }
