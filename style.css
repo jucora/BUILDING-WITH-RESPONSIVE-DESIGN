@@ -554,7 +554,7 @@ body {
   padding-top: 2%;
 }
 .ftr-list-1 li {
-  background-color: #B0B0B0;
+  /*background-color: #B0B0B0;*/
   border-radius: 50%;
 }
 .ftr-list-2 {
@@ -570,3 +570,21 @@ body {
   /* background-color: black; */
   text-align: center;
 }
+.footer button{
+    background-color: #969594;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    border-radius: 60%;
+    height: 2em;
+    width: 1em;
+}
+.footer button:hover{}
+
+.fb1{background-image: url("https://img.icons8.com/android/24/000000/facebook.png");}
+.fb2{background-image: url("https://img.icons8.com/ios/16/000000/twitter.png");}
+.fb3{background-image: url("https://img.icons8.com/small/16/000000/youtube.png");}
+.fb4{background-image: url("https://img.icons8.com/material/24/000000/instagram-new.png");}
+.fb5{background-image: url("https://img.icons8.com/windows/32/000000/pinterest.png");}
+.fb6{background-image: url("https://img.icons8.com/metro/26/000000/rss.png");}
+.fb7{background-image: url("https://img.icons8.com/material-sharp/24/000000/important-mail.png");}
