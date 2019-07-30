@@ -154,7 +154,7 @@ body {
     margin-top: 0.25%;
 }
 
-/* Second Section */
+/* Section 2 */
 
 .second-section {
   height: 40em;
@@ -167,7 +167,7 @@ body {
   font-size: 2em;
   font-weight: bold;
 }
-.second-section h2:hover {
+.latest:hover {
   color: black;
 }
 .s2-article-container {
@@ -291,4 +291,55 @@ body {
   padding-bottom: 2%;
   position: relative;
   left: 33%;
+}
+
+/* Section 4 */
+.fourth-section {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 98%;
+}
+.fourth-section article {
+  border: 1px solid red;
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  width: 30%;
+}
+.s4-d1 {
+  border: 1px solid blue;
+  height: 16em;
+}
+.s4-d1-p {
+  color: white;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.4;
+  padding-left: 3%;
+  position: relative;
+  top: 62%;
+  width: 95%;
+}
+.s4-author {
+  color: rgba(214, 214, 214, 0.726);
+  font-size: 0.8em;
+}
+.b1 {
+  background-image: linear-gradient(to top, black , rgba(15, 1, 1, 0), rgba(255, 250, 250, 0)), 
+  url("img/android.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.s4-d2 {
+  
+}
+.s4-d2 img {
+  width: 10%;
+}
+.s4-d3 {
+  
 }
