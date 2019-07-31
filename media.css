@@ -1,0 +1,13 @@
+@media screen and (max-width:1024px){
+    
+    .first-section{
+       height: 55vh; 
+    }
+    .first-section-art1 h1{
+        font-size: 2em;
+    }
+    .section-h2{
+        font-size: 1em;
+    }
+    
+}

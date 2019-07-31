@@ -96,7 +96,7 @@ nav {
 .first-section {
   box-sizing: border-box;
   color: white;
-  height: 75vh;
+  height: 20em;
   margin: 0 auto;
   position: relative;
   top: 6.6em;
@@ -120,7 +120,7 @@ nav {
 }
 
 .first-section-art1 h1 {
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   position: relative;
   margin-top: 30%;
@@ -182,6 +182,7 @@ nav {
   height: 40em;
   margin: 0 auto;
   margin-top: 8%;
+  position: relative;
   width: 96%;
 }
 .latest {
