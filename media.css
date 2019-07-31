@@ -35,7 +35,6 @@
     }
 
     /* SECTION 2 */
-
     .s2-article-container article {
         width: 31%;
     }
@@ -90,7 +89,31 @@
         margin-left: 0;
     }
     /*SECTION 2*/
-    .second-section{
+    .second-section {
         margin-top: 18%;
     }
+    .latest {
+        padding-left: 1%;
+    }
+    .s2-article-container article {
+        width: 100%;
+    }
+    .s2-img {
+        float: left;
+        height: 5em;
+        width: 15%;
+    }
+    .s2-article-container h2 {
+        float: left;
+        font-size: 0.9em;
+        padding-left: 1%;
+        width: 84%;
+    }
+    .s2-article-container span {
+        float: left;
+        font-size: 0.7em;
+        padding-left: 1%;
+        width: 84%;
+    }
+    
 }

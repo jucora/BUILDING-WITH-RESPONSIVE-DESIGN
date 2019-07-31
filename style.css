@@ -191,6 +191,7 @@ main{
   color: red;
   font-size: 2em;
   font-weight: bold;
+  padding-left: 1%;
 }
 .latest:hover {
   color: black;
