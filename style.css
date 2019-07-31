@@ -1,6 +1,9 @@
 body {
   font-family: Helvetica, sans-serif;
 }
+main {
+  width: 100%;
+}
 nav {
   position: fixed;
   width: 100%;
@@ -90,9 +93,7 @@ nav {
   right: 0.2em;
   width: 1%;
 }
-main{
-    width: 100%;
-}
+
 /* First Section */
 
 .first-section {
@@ -194,6 +195,15 @@ main{
   padding-left: 1%;
 }
 .latest:hover {
+  color: black;
+}
+.latest-1 {
+  color: red;
+  font-size: 2em;
+  font-weight: bold;
+  padding-left: 1%;
+}
+.latest-1:hover {
   color: black;
 }
 .s2-article-container {

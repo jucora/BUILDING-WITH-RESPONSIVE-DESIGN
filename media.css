@@ -1,4 +1,9 @@
 @media screen and (max-width:1324px){
+
+    main {
+        width: 100%;
+    }
+
     /*SECTION 1*/
     .first-article-date{
         top: 1em;
@@ -37,6 +42,23 @@
     /* SECTION 2 */
     .s2-article-container article {
         width: 31%;
+    }
+
+    /*  SECTION 3 */
+
+    .third-section {
+        margin-top: 19%;
+    }
+    .latest {
+        padding: 0;
+    }
+    .third-section ul {
+        float: none;
+        right: 0;
+        width: 30%;
+    }
+    .hide {
+        display: none;
     }
 }
 @media screen and (max-width:768px){
