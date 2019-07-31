@@ -317,11 +317,11 @@ nav {
 }
 .s3-img {
   float: left;
-  height: 16%;
+  height: 7%;
   margin-left: 1%;
-  position: absolute;
-  top: 22%;
-  width: 4.5%;
+  position: relative;
+  top: 5%;
+  width: 20%;
 }
 .s3-box1 h3 {
   color: white;

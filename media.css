@@ -63,7 +63,9 @@
 }
 @media screen and (max-width:768px){
     /* SECTION 1 */
-    
+    main{
+        width:100%;
+    }
     body{
         margin: 0;
         width: 100%;
@@ -136,6 +138,28 @@
         font-size: 0.7em;
         padding-left: 1%;
         width: 84%;
+    }
+    /*SECTION 3*/
+    .s3-box1{
+        height: 20%;
+        padding-bottom: 0;
+    }
+    .s3-box1 h3 {
+  
+  font-size: 1.2em;
+  padding-bottom: 4%;
+  padding-top: 2%;
+  right: 33%;
+}
+    .s3-img{
+        float: left;
+        height: 8%;
+        margin-left: 1%;
+        top: 2.5%;
+        width: 15%;
+    }
+    s3-box1-b{
+       
     }
     
 }
