@@ -1,4 +1,5 @@
 @media screen and (max-width:1324px){
+    /*SECTION 1*/
     .first-article-date{
         top: 1em;
         left: 70%;
@@ -6,8 +7,17 @@
     .section-h2{
         font-size: 1.5em;
     }
+    /*SECTION 2*/
+    .second-section {
+        height: 40em;
+        margin: 0 auto;
+        margin-top: 15%;
+        position: relative;
+        width: 96%;
+      }
 }
 @media screen and (max-width:1024px){
+    /*SECTION 1*/
     
     .first-section{
        height: 21em; 
@@ -26,6 +36,8 @@
     
 }
 @media screen and (max-width:768px){
+    /*SECTION 1*/
+    
     body{
         margin: 0;
         width: 100%;
@@ -72,11 +84,8 @@
     .article-author{
         margin-left: 0;
     }
-    .second-section {
-        height: 40em;
-        margin: 0 auto;
-        margin-top: 15%;
-        position: relative;
-        width: 96%;
-      }
+    /*SECTION 2*/
+    .second-section{
+        margin-top: 18%;
+    }
 }
