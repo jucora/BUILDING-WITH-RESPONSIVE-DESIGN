@@ -1,11 +1,12 @@
 @media screen and (max-width:1324px){
     .section-h2{
         font-size: 1.5em;
+    }
 }
 @media screen and (max-width:1024px){
     
     .first-section{
-       height: 20em; 
+       height: 21em; 
     }
     .first-section-art1 h1{
         font-size: 2em;
@@ -16,16 +17,33 @@
     }
     
 }
-    @media screen and (max-width:768px){
-        .first-section-art1{
-            display: block;
-            width: 100%;
-        }
-        .first-section-art2{
-            width: 100%;
-        }
-        .article-3{
-            width: 100%;
-        }
+@media screen and (max-width:768px){
+    .first-section {
+        height: 21em;
     }
-
+    .first-section-art1{
+        float: none;
+        height: 7em;
+        width: 100%;
+    }
+    .first-section-art1 h1 {
+        font-size: 1.2em;
+        margin-top: 0;
+      }
+    .first-section-art2{
+        float: none;
+        height: 7em;
+        width: 100%;
+    }
+    .section-h2{
+        font-size: 0.7em;
+        padding-bottom: 0.5%;
+    }
+    .second-section {
+        height: 40em;
+        margin: 0 auto;
+        margin-top: 15%;
+        position: relative;
+        width: 96%;
+      }
+}
