@@ -1,6 +1,11 @@
 body {
   font-family: Helvetica, sans-serif;
 }
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+}
 .nav-list1 {
   background-color: #131313;
   color: #bdbdbd;
@@ -23,6 +28,7 @@ body {
 }
 .nav-list2 {
   background-color: #f7f7f7;
+  box-sizing: border-box;
   color: #adadad;
   font-size: 0.9em;
   height: 1.3%;
@@ -34,22 +40,33 @@ body {
   margin-right: 1.6%;
 }
 .nl-2-1 {
+  box-sizing: border-box;
   float: left;
-  width: 90%;
+  height: 100%;
+  width: 80%;
 }
 .nl-2-2 {
-  float: right;
-  width: 10%;
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
 }
 .nl-2-2 button {
+  background-color: #f7f7f7;
+  background-image: url("img/mag-glass.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  border-bottom: none;
+  border-left: 1px solid #F0EFEF;
   float: right;
-  padding: 17.18%;
   position: relative;
-  top: -1.7em;
-  right: -15.5%;
+  right: -8.7%;
+  padding: 7.5%;
+  top: -1.8em;
 }
 .pride {
   background-color: #fd3;
+  height: 2em;
 }
 .pride:after {
   clear: both;
@@ -58,10 +75,9 @@ body {
 }
 .amsterdam {
   float: left;
-  padding-bottom: 0.6%;
-  padding-left: 1.7%;
-  padding-top: 0.6%;
+  padding-left: 1.5%;
   position: relative;
+  top: -0.5em;
 }
 .amsterdam-p2 {
   padding-left: 0.5%;
@@ -70,7 +86,8 @@ body {
   float: left;
   margin-left: 1%;
   position: relative;
-  top: 0.5em;
+  bottom: 0.5em;
+  right: 0.2em;
   width: 1%;
 }
 
@@ -81,6 +98,8 @@ body {
   color: white;
   height: 75vh;
   margin: 0 auto;
+  position: relative;
+  top: 6.6em;
   width: 99%;
 }
 .first-section-art1 {
