@@ -33,10 +33,15 @@
         font-size: 1em;
         padding-bottom: 0.5%;
     }
-    
+
+    /* SECTION 2 */
+
+    .s2-article-container article {
+        width: 31%;
+    }
 }
 @media screen and (max-width:768px){
-    /*SECTION 1*/
+    /* SECTION 1 */
     
     body{
         margin: 0;

@@ -197,6 +197,31 @@ main{
 }
 .s2-article-container {
   margin-top: 1%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.s2-article-container article {
+  height: auto;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 23%;
+}
+.s2-article-container h2 {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+.s2-article-container span {
+  color: #aaa;
+  font-size: 0.9em;
+}
+.s2-articles article {
+  height: auto;
+  margin-bottom: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 23%;
 }
 .s2-articles {
   display: flex;
