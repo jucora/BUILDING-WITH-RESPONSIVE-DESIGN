@@ -90,7 +90,9 @@ nav {
   right: 0.2em;
   width: 1%;
 }
-
+main{
+    width: 100%;
+}
 /* First Section */
 
 .first-section {
