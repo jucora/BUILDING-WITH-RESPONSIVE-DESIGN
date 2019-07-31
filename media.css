@@ -1,13 +1,31 @@
+@media screen and (max-width:1324px){
+    .section-h2{
+        font-size: 1.5em;
+}
 @media screen and (max-width:1024px){
     
     .first-section{
-       height: 55vh; 
+       height: 20em; 
     }
     .first-section-art1 h1{
         font-size: 2em;
     }
     .section-h2{
-        font-size: 1em;
+        font-size: 1.2em;
+        padding-bottom: 0.5%;
     }
     
 }
+    @media screen and (max-width:768px){
+        .first-section-art1{
+            display: block;
+            width: 100%;
+        }
+        .first-section-art2{
+            width: 100%;
+        }
+        .article-3{
+            width: 100%;
+        }
+    }
+
