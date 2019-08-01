@@ -73,6 +73,15 @@
     padding-left: 1%;
     padding-right: 1%;
   }
+
+  /*  SECTION 4 */
+
+  .fourth-section article {width: 48%;}
+  .fourth-section article h3 {padding-bottom: 1%;}
+  .fifth-section article {width: 48%;}
+  .fifth-section article h3 {padding-bottom: 1%;}
+
+
 }
 @media screen and (max-width: 768px) {
   /* SECTION 1 */
@@ -183,4 +192,13 @@
   .s3-box1-b {
    padding-left: 1%; 
   }
+
+  /*  SECTION 4 */
+
+  .fourth-section article {width: 100%;}
+  .fifth-section{
+    flex-direction: column;
+}
+  .fifth-section article {width: 100%;}
+
 }

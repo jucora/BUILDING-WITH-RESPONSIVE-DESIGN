@@ -368,6 +368,7 @@ nav {
 .fourth-section article {
   box-sizing: border-box;
   margin: 0 auto;
+  margin-bottom: 1%;
   position: relative;
   width: 30%;
 }
