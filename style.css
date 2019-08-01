@@ -275,13 +275,18 @@ nav {
   content: "";
   display: table;
 }
-.third-section ul {
-  float: right;
+.third-section-list ul {
+  display: inline;
   position: relative;
-  right: -2%;
-  width: 25%;
+  right: 3%;
+    top: 0.5em;
+  width: 30%;
 }
-.third-section li {
+.third-section-list{
+    float: right;
+    padding-bottom: 1%;
+}
+.third-section-list li {
   display: inline;
 }
 .third-section li a {
@@ -289,8 +294,6 @@ nav {
   text-decoration: none;
 }
 .email {
-  border-left: 1px solid #f42;
-  border-right: 1px solid #f42;
   padding-left: 2%;
   padding-right: 2%;
 }
