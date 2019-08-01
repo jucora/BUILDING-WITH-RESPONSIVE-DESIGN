@@ -60,7 +60,7 @@ nav {
   background-repeat: no-repeat;
   background-size: 60%;
   border-bottom: none;
-  border-left: 1px solid #F0EFEF;
+  border-left: 1px solid #f0efef;
   float: right;
   position: relative;
   right: -8.7%;
@@ -281,9 +281,9 @@ nav {
   right: 3%;
   top: 0.5em;
 }
-.third-section-list{
-    float: right;
-    padding-bottom: 1%;
+.third-section-list {
+  float: right;
+  padding-bottom: 1%;
 }
 .third-section-list li {
   display: inline;
@@ -472,10 +472,14 @@ nav {
   text-decoration: none;
   width: 90%;
 }
-.first-li {padding-top: 1em;}
-.s4-d3 ul li a:hover {color: black;}
-.b2{
-    background-image: linear-gradient(
+.first-li {
+  padding-top: 1em;
+}
+.s4-d3 ul li a:hover {
+  color: black;
+}
+.b2 {
+  background-image: linear-gradient(
       to top,
       black,
       rgba(15, 1, 1, 0),
@@ -483,8 +487,8 @@ nav {
     ),
     url("img/oppo.jpeg");
 }
-.b3{
-    background-image: linear-gradient(
+.b3 {
+  background-image: linear-gradient(
       to top,
       black,
       rgba(15, 1, 1, 0),
@@ -492,8 +496,8 @@ nav {
     ),
     url("img/spiderman.png");
 }
-.b4{
-    background-image: linear-gradient(
+.b4 {
+  background-image: linear-gradient(
       to top,
       black,
       rgba(15, 1, 1, 0),
@@ -501,8 +505,8 @@ nav {
     ),
     url("img/chinese-vertical.png");
 }
-.b5{
-    background-image: linear-gradient(
+.b5 {
+  background-image: linear-gradient(
       to top,
       black,
       rgba(15, 1, 1, 0),
@@ -510,8 +514,8 @@ nav {
     ),
     url("img/mac-laptop.jpeg");
 }
-.b6{
-    background-image: linear-gradient(
+.b6 {
+  background-image: linear-gradient(
       to top,
       black,
       rgba(15, 1, 1, 0),
@@ -519,8 +523,8 @@ nav {
     ),
     url("img/eventually.png");
 }
-.b7{
-    background-image: linear-gradient(
+.b7 {
+  background-image: linear-gradient(
       to top,
       black,
       rgba(15, 1, 1, 0),
@@ -528,8 +532,8 @@ nav {
     ),
     url("img/doom.jpg");
 }
-.b8{
-    background-image: linear-gradient(
+.b8 {
+  background-image: linear-gradient(
       to top,
       black,
       rgba(15, 1, 1, 0),
@@ -537,37 +541,37 @@ nav {
     ),
     url("img/controller.jpg");
 }
-.img1{
-    background-image: url("img/smiling-couple.png");
+.img1 {
+  background-image: url("img/smiling-couple.png");
 }
-.img2{
-    background-image: url("img/foldable.png");
+.img2 {
+  background-image: url("img/foldable.png");
 }
-.img3{
-    background-image: url("img/furniture.jpg");
+.img3 {
+  background-image: url("img/furniture.jpg");
 }
-.img4{
-    background-image: url("img/carlton.jpg");
+.img4 {
+  background-image: url("img/carlton.jpg");
 }
-.img5{
-    background-image: url("img/hands-over-ears.jpeg");
+.img5 {
+  background-image: url("img/hands-over-ears.jpeg");
 }
-.img6{
-    background-image: url("img/bitcoin.jfif");
+.img6 {
+  background-image: url("img/bitcoin.jfif");
 }
-.img7{
-    background-image: url("img/mozilla.jpeg");
+.img7 {
+  background-image: url("img/mozilla.jpeg");
 }
-.img8{
-    background-image: url("img/mario.jpg");
+.img8 {
+  background-image: url("img/mario.jpg");
 }
-.fifth-section{
-    display: flex;
-    flex-direction: row;
+.fifth-section {
+  display: flex;
+  flex-direction: row;
 }
-.fifth-section article{
-    margin-left: 2.6%;
-    width: 30%;
+.fifth-section article {
+  margin-left: 2.6%;
+  width: 30%;
 }
 
 /* Section 6 */
@@ -577,7 +581,7 @@ nav {
   margin-bottom: 1%;
   width: 97.9%;
 }
-.s6-hdr:after{
+.s6-hdr:after {
   display: table;
   clear: both;
   content: "";
@@ -598,7 +602,6 @@ nav {
 /* Footer */
 
 .ftr-1 {
-  /* border: 1px solid red; */
   background-color: #131313;
 }
 .ftr-1 ul {
@@ -614,31 +617,29 @@ nav {
   padding-top: 2%;
 }
 .ftr-list-1 li {
-  /*background-color: #B0B0B0;*/
   border-radius: 50%;
   margin-left: 2%;
 }
-.ftr-list-1 li img{
-    background: white;
-    border-radius: 50%;
-    height: 3.5%; 
-    padding: 0.5%;
-    width: 4%; 
+.ftr-list-1 li img {
+  background: white;
+  border-radius: 50%;
+  height: 3.5%;
+  padding: 0.5%;
+  width: 3%;
 }
 .ftr-list-2 {
   color: white;
   padding-bottom: 2%;
   padding-top: 0.8%;
 }
-
 .ftr-2 {
-    background-color: black;
-    color: white;
-  /* border: 1px solid blue; */
+  background-color: black;
+  color: white;
+
   padding: 3%;
-  /* background-color: black; */
+
   text-align: center;
 }
-.ftr-2 span{
-    color: red;
+.ftr-2 span {
+  color: red;
 }
