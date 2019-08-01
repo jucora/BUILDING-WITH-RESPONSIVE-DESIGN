@@ -279,8 +279,7 @@ nav {
   display: inline;
   position: relative;
   right: 3%;
-    top: 0.5em;
-  width: 30%;
+  top: 0.5em;
 }
 .third-section-list{
     float: right;
@@ -306,6 +305,7 @@ nav {
   font-weight: bold;
   height: 3%;
   padding-bottom: 2%;
+  position: relative;
 }
 .s3-box1-b {
   background-color: #f9f9f7;
