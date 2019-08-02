@@ -58,6 +58,8 @@
   .latest {
     padding: 0;
   }
+  .s3-box1 h3 {right: 40%;}
+  .s3-box1-p1 {left: 27.5%;}
   .third-section-list {
     float: none;
   }
@@ -92,6 +94,9 @@
   /* FOOTER */
 
   footer {margin-top: 25.5%;}
+}
+@media screen and (max-width: 988px) {
+  
 }
 @media screen and (max-width: 768px) {
   /* SECTION 1 */

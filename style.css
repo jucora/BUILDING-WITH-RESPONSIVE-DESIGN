@@ -304,7 +304,7 @@ nav {
 .s3-box1 {
   background-image: linear-gradient(to bottom, #f42 50%, #ffeae6 50%);
   font-weight: bold;
-  height: 3%;
+  height: 5.5em;
   padding-bottom: 2%;
   position: relative;
 }
@@ -321,10 +321,10 @@ nav {
 }
 .s3-img {
   float: left;
-  height: 7%;
-  margin-left: 1%;
+  height: 65%;
+  margin-left: 4%;
   position: relative;
-  top: 5%;
+  top: 15%;
   width: 20%;
 }
 .s3-box1 h3 {
@@ -334,15 +334,19 @@ nav {
   padding-bottom: 8%;
   padding-top: 5%;
   position: relative;
-  right: 33%;
+  right: 30%;
 }
 .s3-box1-p1 {
   color: black;
+  position: relative;
+  left: 3.3%;
   text-transform: uppercase;
 }
 .s3-box1-p2 {
   color: #939393;
   font-size: 0.7em;
+  position: relative;
+  left: 27.3%;
   text-transform: uppercase;
 }
 .s3-box1 h3:after {
@@ -353,8 +357,8 @@ nav {
 .s3-box1 p {
   clear: right;
   padding-bottom: 2%;
-  position: relative;
-  left: 33%;
+  /* position: relative;
+  left: 30%; */
 }
 
 /* Section 4 */
