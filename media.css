@@ -95,9 +95,12 @@
 
   footer {margin-top: 25.5%;}
 }
-@media screen and (max-width: 988px) {
+ @media screen and (max-width: 986px) { 
+
+  /* SECTION 3 */
   
-}
+  .s3-box1-p1 {left: 3.3%;}
+} 
 @media screen and (max-width: 768px) {
   /* SECTION 1 */
   main {
