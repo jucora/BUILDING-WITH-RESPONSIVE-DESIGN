@@ -2,6 +2,7 @@ body {
   font-family: Helvetica, sans-serif;
 }
 main {
+  overflow: hidden;
   width: 100%;
 }
 nav {
