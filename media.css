@@ -103,6 +103,12 @@
 } 
 @media screen and (max-width: 768px) {
   /* SECTION 1 */
+    .nav-list2 {
+        font-size: 0.6em;
+    }
+    .pride{
+        font-size: 0.6em;
+    }
   main {
     width: 100%;
   }
