@@ -1,31 +1,575 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link href="style.css">
-    </head>
-    <body>
-        <main>
-            <nav>
-                <ul>
-                    <li>News</li>
-                    <li>Events</li>
-                    <li>Business</li>
-                    <li>AMAs</li>
-                    <li>Spaces</li>
-                    <li>Terms &#38; Conditions</li>
-                </ul>
-                <ul>
-                    <li>LASTEST</li>
-                    <li>HARD FORK</li>
-                    <li>PLUGGED</li>
-                    <li>FUNDAMENTALS</li>
-                    <li>WORK 2030</li>
-                </ul>
-                <button></button>
-                <p>It's almost Pride Week in Amsterdam </p>
-                <img src="img/flag.svg" alt="flag">
-                <p> Don't miss our events on diversity & inclusion → </p>
-            </nav>
-        </main>
-    </body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="style.css" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+    <link href="media.css" rel="stylesheet">
+    <title>Building with responsive design</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-list1">
+        <li>News</li>
+        <li>Events</li>
+        <li>Business</li>
+        <li>AMAs</li>
+        <li>Spaces</li>
+        <li>Terms &#38; Conditions</li>
+      </ul>
+      <div class="nav-list2">
+        <div class="nl-2-1">
+          <ul>
+            <li>LASTEST</li>
+            <li>HARD FORK</li>
+            <li>PLUGGED</li>
+            <li>FUNDAMENTALS</li>
+            <li>WORK 2030</li>
+          </ul>
+        </div>
+        <div class="nl-2-2">
+          <button></button>
+        </div>
+      </div>
+      <div class="pride">
+        <p class="amsterdam">It's almost Pride Week in Amsterdam</p>
+        <img src="img/flag.svg" alt="flag" class="flag-img">
+        <p class="amsterdam amsterdam-p2">
+          Don't miss our events on diversity & inclusion →
+        </p>
+      </div>
+    </nav>
+    <main>
+      <section class="first-section">
+        <article class="first-section-art1">
+          <span class="first-article-date">Monday — July 29, 2019</span>
+          <h1>TikTok’s parent company is reportedly working on a smartphone</h1>
+          <div>
+            <span>by Matthew Hughes</span>
+            <span>48 minutes ago</span>
+          </div>
+        </article>
+        <article class="first-section-art2 article-2">
+          <div>
+            <span class="insights">INSIGHTS</span>
+            <h2 class="section-h2">
+              Bitcoin whale moves $468 million crypto-fortune for less than $400
+            </h2>
+            <span class="article-author">by David Canellis 49 minutes ago 0</span>
+          </div>
+        </article>
+        <article class="first-section-art2 article-3">
+          <div>
+            <span class="insights">INSIGHTS</span>
+            <h2 class="section-h2">
+              Bitcoin whale moves $468 million crypto-fortune for less than $400
+            </h2>
+            <span class="article-author"
+              >by David Canellis 49 minutes ago 0</span>
+          </div>
+        </article>
+      </section>
+      <section class="second-section">
+        <h2 class="latest-1">Latest news</h2>
+        <div class="s2-article-container">
+          
+            <article>
+              <img class="s2-img" src="img/ai.png" alt="robot">
+              <h2>Hype is killing AI – here’s how we can stop it</h2>
+              <span>Ben Dickson28 minutes ago</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/photoshop.jpg" alt="photoshop">
+              <h2>
+                For under $20, Adobe Photoshop will never feel complicated
+                again.
+              </h2>
+              <span>Ben Dickson35 minutes ago</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/drone.jpg" alt="drone">
+              <h2>
+                Look no further, this DJI-powered drone is a great starter drone
+                for under $100
+              </h2>
+              <span>TNW Deals3 hours ago</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/oppo.jpeg" alt="oppo">
+              <h2>
+                Oppo's new 'Waterfall' phone display extends nearly all around
+                the sides
+              </h2>
+              <span>Ivan Mehta3 hours ago</span>
+            </article>
+          
+          
+            <article>
+              <img class="s2-img" src="img/fenta.jpeg" alt="fenta">
+              <h2>
+                Fentanyl dealer to forfeit $4M in Bitcoin and quadrillions of
+                bank notes
+              </h2>
+              <span>Yessi Bello Perez5 hours ago</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/dyson.png" alt="dyson">
+              <h2>
+                CHEAP: Suck that muck with $100 off a Dyson V11 cordless vacuum
+              </h2>
+              <span>Callum Booth5 hours ago</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/elephant.png" alt="elephant">
+              <h2>
+                Research: Climate change helped elephants evolve a large brain
+              </h2>
+              <span>The Conversation6 hours ago</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/contact-lens.jpg" alt="lens">
+              <h2>
+                Scientist have made a contact lens that lets you zoom in by
+                blinking
+              </h2>
+              <span>Ivan Mehta7 hours ago</span>
+            </article>
+         
+        </div>
+      </section>
+      <section class="third-section">
+        <div class="third-section-header">
+          <h2 class="latest">Latest funding rounds on Index.co</h2>
+          <div class="third-section-list">
+            <ul>
+            <li><a href="#">Add info</a></li>
+            <li class="email"><a href="#">Get updates by email</a></li>
+            <li><a href="#">See more</a></li>
+            </ul>
+           </div>
+        </div>
+        <div class="s2-article-container">
+          <article>
+            <div class="s3-box1">
+              <img class="s3-img" src="img/subjectWell.png" alt="subjectWell">
+              <h3>SubjectWell</h3>
+              <p class="s3-box1-p1">$10M</p>
+              <p class="s3-box1-p2">series a</p>
+            </div>
+            <div class="s3-box1-b">
+              <p>Pharmaceuticals, +2</p>
+              <br>
+              <p>Windham Venture Partners, +2</p>
+              <br>
+              <p class="s3-box1-b-p3">
+                SubjectWell nabs $10 mln Series A on PE
+              </p>
+              <br>
+              <p>Hub</p>
+            </div>
+          </article>
+          <article>
+            <div class="s3-box1">
+              <img class="s3-img" src="img/spring-labs.png" alt="spring-labs">
+              <h3>SubjectWell</h3>
+              <p class="s3-box1-p1">$10M</p>
+              <p class="s3-box1-p2">series a</p>
+            </div>
+            <div class="s3-box1-b">
+              <p>Pharmaceuticals, +2</p>
+              <br>
+              <p>Windham Venture Partners, +2</p>
+              <br>
+              <p class="s3-box1-b-p3">
+                SubjectWell nabs $10 mln Series A on PE
+              </p>
+              <br>
+              <p>Hub</p>
+            </div>
+          </article>
+          <article>
+            <div class="s3-box1">
+              <img class="s3-img" src="img/symphony.jpg" alt="symphony">
+              <h3>SubjectWell</h3>
+              <p class="s3-box1-p1">$10M</p>
+              <p class="s3-box1-p2">series a</p>
+            </div>
+            <div class="s3-box1-b">
+              <p>Pharmaceuticals, +2</p>
+              <br>
+              <p>Windham Venture Partners, +2</p>
+              <br>
+              <p class="s3-box1-b-p3">
+                SubjectWell nabs $10 mln Series A on PE
+              </p>
+              <br>
+              <p>Hub</p>
+            </div>
+          </article>
+          <article class="hide">
+            <div class="s3-box1">
+              <img class="s3-img" src="img/buyandship.jpg" alt="buyandship">
+              <h3>SubjectWell</h3>
+              <p class="s3-box1-p1">$10M</p>
+              <p class="s3-box1-p2">series a</p>
+            </div>
+            <div class="s3-box1-b">
+              <p>Pharmaceuticals, +2</p>
+              <br>
+              <p>Windham Venture Partners, +2</p>
+              <br>
+              <p class="s3-box1-b-p3">
+                SubjectWell nabs $10 mln Series A on PE
+              </p>
+              <br>
+              <p>Hub</p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="fourth-section">
+        <article>
+          <h3 class="latest">Apps</h3>
+          <div class="s4-d1 b1">
+            <div class="s4-d1-p">
+              <p class="popular">Most Popular</p>
+              <p>How to switch Android Q's gesture navigation 
+                back to the old buttons</p>
+              <p class="s4-author">Napier Lopez    2 days ago</p>
+            </div>
+          </div>
+        <div>
+          <div class="s4-d2">
+            <div class="s4-d2-p">
+                <p>Latest</p>
+                <p class="s4-d2-desc">This retro-styled OS is actually a delightful
+                     feed of 90s-inspired tunes and videos</p>
+            </div>
+            <div class="d2-img img1">
+            </div>
+          </div>
+        </div>
+          <div class="s4-d3">
+            <ul>
+              <li><a href="#">WhatsApp is reportedly building a desktop version 
+                  that works without your phone</a></li>
+              <li><a href="#">PUBG's lite version for India works on budget phones 
+                  and comes in under 400MB</a></li>
+              <li><a href="#">Hate Twitter’s new design? Here’s how to get the old 
+                  look back</a></li>
+              <li><a href="#">This adult cam site is handing out virtual blowjobs, 
+                  free of charge</a></li>
+              <li><a href="#">WhatsApp Pay will officially launch by the end of the 
+                  year in India</a></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h3 class="latest">Gear</h3>
+          <div class="s4-d1 b2">
+            <div class="s4-d1-p">
+              <p class="popular">Most Popular</p>
+              <p>Oppo's new 'Waterfall' phone display extends nearly all 
+                around the sides</p>
+              <p class="s4-author">Ivan Mehta    11 hours ago</p>
+            </div>
+          </div>
+          <div class="s4-d2">
+            <div class="s4-d2-p">
+              <p>Latest</p>
+              <p class="s4-d2-desc">Watch what happens when you bend a foldable phone past 
+                its breaking point</p>
+            </div>
+            <div class="d2-img img2">
+            </div>
+          </div>
+          <div class="s4-d3">
+            <ul>
+              <li><a href="#">Google ad confirms the Pixel 4's face unlock and 
+                  handwave-y gestures</a></li>
+              <li><a href="#">TikTok's parent company is reportedly working on a 
+                  smartphone</a></li>
+              <li><a href="#">Oppo's 'Waterfall' display is cool, but I have questions 
+                  about durability and repairs</a></li>
+              <li><a href="#">Oppo's new 'Waterfall' phone display extends nearly all 
+                  around the sides</a></li>
+              <li><a href="#">CHEAP: Suck that muck with $100 off a Dyson V11 cordless 
+                  vacuum</a></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h3 class="latest">Tech</h3>
+          <div class="s4-d1 b3">
+            <div class="s4-d1-p">
+              <p class="popular">Most Popular</p>
+              <p>This AI tool is smart enough to spot AI-generated articles and 
+                tweets</p>
+              <p class="s4-author">Ravie Lakshmanan    14 hours ago</p>
+            </div>
+          </div>
+          <div class="s4-d2">
+            <div class="s4-d2-p">
+              <p>Latest</p>
+              <p class="s4-d2-desc">Watch Samsung's AI render photorealistic scenes from video</p>
+            </div>
+            <div class="d2-img img3">
+            </div>
+          </div>
+          <div class="s4-d3">
+            <ul>
+              <li><a href="#">Hype is killing AI – here’s how we can stop it</a></li>
+              <li><a href="#">This AI tool is smart enough to spot AI-generated articles 
+                  and tweets</a></li>
+              <li><a href="#">LinkedIn fixed a flaw that let someone post a job opening 
+                  for Google's CEO position</a></li>
+              <li><a href="#">We might never achieve general AIs — but it's important that 
+                  we try</a></li>
+              <li><a href="#">Just because sex toy apps can count calories doesn't mean 
+                  they should</a></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h3 class="latest">Creative</h3>
+          <div class="s4-d1 b4">
+            <div class="s4-d1-p">
+              <p class="popular">Most Popular</p>
+              <p>Chinese vertical dramas made for phone viewing show the future 
+                of mobile video</p>
+              <p class="s4-author">Henry Sung    12 days ago</p>
+            </div>
+          </div>
+          <div class="s4-d2">
+            <div class="s4-d2-p">
+              <p>Latest</p>
+              <p class="s4-d2-desc">Sorry, but you can’t copyright a meme</p>
+            </div>
+            <div class="d2-img img4">
+            </div>
+          </div>
+          <div class="s4-d3">
+            <ul>
+              <li><a href="#">A peek at legendary architect John Storyk's 
+                  design process</a></li>
+              <li><a href="#">Watch: Sony made a God of War documentary 
+                  as good as the game</a></li>
+              <li><a href="#">Who are the creators of AI-generated art — 
+                  programmers or machines?</a></li>
+              <li><a href="#">A Twitter bot that translates jungle sounds 
+                  to existential questions might just help 
+                  save the rainforest</a></li>
+              <li><a href="#">A Q&A with Roland CEO Jun-ichi Miki on innovation, 
+                  Waku Waku, and 'sleeping musicians'</a></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h3 class="latest">Podium</h3>
+          <div class="s4-d1 b5">
+            <div class="s4-d1-p">
+              <p class="popular">Most Popular</p>
+              <p>12 challenges businesses face when using open-source 
+                software</p>
+              <p class="s4-author">Scott Gerber    3 days ago</p>
+            </div>
+          </div>
+          <div class="s4-d2">
+            <div class="s4-d2-p">
+              <p>Latest</p>
+              <p class="s4-d2-desc">Executives are out of touch with the human effects 
+                of digital darwinism</p>
+            </div>
+            <div class="d2-img img5">
+            </div>
+          </div>
+          <div class="s4-d3">
+            <ul>
+              <li><a href="#">An introvert’s guide to professional networking</a></li>
+              <li><a href="#">If you want to hire better people, step up your 
+                  ‘recruitment marketing’</a></li>
+              <li><a href="#">Creating software for multiple OSes: 13 things new 
+                  developers need to remember</a></li>
+              <li><a href="#">Companies need to evolve to survive — here's 
+                  how you can manage that</a></li>
+              <li><a href="#">Why empathy won’t get automated anytime soon</a></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h3 class="latest">Insights</h3>
+          <div class="s4-d1 b6">
+            <div class="s4-d1-p">
+              <p class="popular">Most Popular</p>
+              <p>Slack is down so maybe go to the pub instead?</p>
+              <p class="s4-author">Matthew Hughes    7 hours ago</p>
+            </div>
+          </div>
+          <div class="s4-d2">
+            <div class="s4-d2-p">
+              <p>Latest</p>
+              <p class="s4-d2-desc">Bitcoin whale moves $468 million crypto-fortune for 
+                less than $400</p>
+            </div>
+            <div class="d2-img img6">
+            </div>
+          </div>
+          <div class="s4-d3">
+            <ul>
+              <li><a href="#">Fentanyl dealer to forfeit $4M in Bitcoin and 
+                  quadrillions of bank notes</a></li>
+              <li><a href="#">Moonday Mornings: The US is suing a cryptocurrency 
+                  exchange owner to the tune of $100M</a></li>
+              <li><a href="#">WannaCry hero Marcus "MalwareTech" Hutchins isn't 
+                  going to jail</a></li>
+              <li><a href="#">Silk Road site admin extradited to US hit with 78-month 
+                  prison sentence</a></li>
+              <li><a href="#">Bagel-loving 84-year-old lady foils sextortionists' $1,400 
+                  Bitcoin con</a></li>
+            </ul>
+          </div>
+        </article>
+      </section>
+        
+        <section class="fifth-section">
+            <article>
+          <h3 class="latest">Launch</h3>
+          <div class="s4-d1 b7">
+            <div class="s4-d1-p">
+              <p class="popular">Most Popular</p>
+              <p>Bethesda wants you to test its game streaming tech with 
+                DOOM on iOS this year</p>
+              <p class="s4-author">Abhimanyu Ghoshal    7 weeks ago</p>
+            </div>
+          </div>
+          <div class="s4-d2">
+            <div class="s4-d2-p">
+              <p>Latest</p>
+              <p class="s4-d2-desc">Mozilla rolls out new automated crypto-jacking filtering
+                in Firefox</p>
+            </div>
+            <div class="d2-img img7">
+            </div>
+          </div>
+          <div class="s4-d3">
+            <ul>
+              <li><a href="#">Google announces Stadia, its cross-platform game streaming 
+                  service</a></li>
+              <li><a href="#">Binance will let you buy Bitcoin with cash from 1,300 
+                  stores in Australia</a></li>
+              <li><a href="#">YouTube Music launches in India to battle it out with 
+                  Spotify et al</a></li>
+              <li><a href="#">Ballsy mobile devs can now monetize their games with 
+                  cryptocurrency</a></li>
+              <li><a href="#">Harley-Davidson debuts its all-electric 'LiveWire' 
+                  motorcycle at CES</a></li>
+            </ul>
+          </div>
+        </article>
+        <article>
+          <h3 class="latest">Distract</h3>
+          <div class="s4-d1 b8">
+            <div class="s4-d1-p">
+              <p class="popular">Most Popular</p>
+              <p>How to sync your game controllers wirelessly to your PC</p>
+              <p class="s4-author">Rachel Kaser    3 days ago</p>
+            </div>
+          </div>
+          <div class="s4-d2">
+            <div class="s4-d2-p">
+              <p>Latest</p>
+              <p class="s4-d2-desc">The best things I saw in the National Videogame Museum</p>
+            </div>
+            <div class="d2-img img8">
+            </div>
+          </div>
+          <div class="s4-d3">
+            <ul>
+              <li><a href="#">GTA Online opens in-game casino amid online gambling 
+                  debate</a></li>
+              <li><a href="#">This site turns your selfies into Renaissance portraits
+                  with AI</a></li>
+              <li><a href="#">Nvidia replicated the moon landing with RTX graphics</a></li>
+              <li><a href="#">Google used 107,000 solar panels to create a portrait 
+                  of Apollo 11 pioneer Margaret Hamilton</a></li>
+                <li><a href="#">The TurboGrafx-16 Mini is now available for pre-order</a></li>
+            </ul>
+          </div>
+        </article>
+        </section>
+        <section class="second-section">
+        <div class="s6-hdr">
+          <h2 class="latest">Latest deals</h2>
+          <a href="#">See all Deals</a>
+        </div> 
+        <div class="s2-article-container">
+            <article>
+              <img class="s2-img" src="img/cisco.jpg" alt="cisco">
+              <h2>The Ultimate Cisco Networking Expert Certification Training Bundle</h2>
+              <span>$1405 $31</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/sigma.jpg" alt="sigma">
+              <h2>The Complete Six Sigma Training Suite Bundle</h2>
+              <span>$2843.91 $39</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/mac-laptop.jpeg" alt="mac laptop">
+              <h2>The Adobe Photoshop CC Training Bundle</h2>
+              <span>$145 $19</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/windows.jpg" alt="windows">
+              <h2>Microsoft Access Complete Course: Beginner to Advanced</h2>
+              <span>$200 $12.99</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/seo.jpg" alt="seo">
+              <h2>The Complete SEO & Digital Mega Marketing Bundle</h2>
+              <span>$2330 $49</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/ccna.jpg" alt="ccna">
+              <h2>The Foundational Cisco CCNA Security Bundle</h2>
+              <span>$897 $29</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/billionaire.jpg" alt="billionaire">
+              <h2>How Billionaires, Icons, and World-Class Performers Master Productivity with Tim Ferriss</h2>
+              <span>$29 $19.99</span>
+            </article>
+            <article>
+              <img class="s2-img" src="img/bundle.jpg" alt="bundle">
+              <h2>The Silicon Valley Digital Marketer Bundle</h2>
+              <span>$1633 $35</span>
+            </article>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="ftr-1">
+        <ul class="ftr-list-1">
+          <li><img src="https://img.icons8.com/material-two-tone/24/000000/facebook-f--v2.png" alt="facebook"></li>
+          <li><img src="https://img.icons8.com/ios/50/000000/twitter-squared.png" alt="twitter"></li>
+          <li><img src="https://img.icons8.com/ios/50/000000/youtube-play.png" alt="youtube"></li>
+          <li><img src="https://img.icons8.com/wired/64/000000/instagram-new.png" alt="instagram"></li>
+          <li><img src="https://img.icons8.com/ios/80/000000/pinterest.png" alt="pinterest"></li>
+          <li><img src="https://img.icons8.com/ios/100/000000/wifi.png" alt="wifi"></li>
+          <li><img src="https://img.icons8.com/ios/80/000000/filled-message.png" alt="envelop"></li>  
+        </ul>
+        <ul class="ftr-list-2">
+          <li>EVENTS</li>
+          <li>ABOUT</li>
+          <li>TEAM</li>
+          <li>ADVERTISE</li>
+          <li>JOBS</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+      <div class="ftr-2">
+        <p>The Next Web © 2006–2019 The Next Web B.V. Made with <span>♥</span> in Amsterdam. Powered by StackPath</p>
+      </div>
+    </footer>
+  </body>
 </html>
