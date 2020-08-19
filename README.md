@@ -28,7 +28,7 @@ This app was built using the following:
 
 ## Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 ## Show Your Support <span id="show"></span>
 
